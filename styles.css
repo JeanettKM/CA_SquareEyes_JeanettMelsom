@@ -1,0 +1,84 @@
+header,
+footer{
+    background-color: EFEFEF;
+}
+
+footer {
+    text-align: center;
+}
+
+header a {
+    color: rgb(25, 25, 25);
+}
+
+.fp-cta-button {
+    background-color: gray;
+    color:white;
+}
+
+.fp-movie-collection {
+    background-color: rgb(37, 37, 37);
+}
+
+.centertext {
+    text-align: center;
+}
+
+.about-us-main {
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+}
+
+.yellowtext {
+    color:rgb(170, 133, 0)
+}
+
+.yellowbackround {
+    background-color: rgb(170, 133, 0);
+    color: white
+}
+
+.contact-us-backround {
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+.collection-backround {
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+.product-page-backround {
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+.your-cart-backround {
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+.checkout-backround {
+    background-color: #40403F;
+    color: white;
+}
+
+.order-confirmed-backround {
+    background-color: #40403F;
+    color: white;
+}
+
+.your-cart-line {
+    background-color: #40403F;
+    color: white;
+}
+
+.order-proccess-block {
+    background-color: #1A1919;
+    color: white;
+}
+
+.yellow-cta {
+    background-color: #AA8500;
+    color: white;
+}

@@ -9,6 +9,7 @@
       content="Watch and collect your favorite movies with Square Eyes"
     />
     <title>Square Eyes | Home</title>
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -26,11 +27,13 @@
         <p>Connecting Film Lovers</p>
         <img src="images/curtain.png" alt="Cinema curtains" />
       </section>
-    </header>
-    <main>
-      <section>
+      <section class="centertext">
         <h2>It's Spooky Season!</h2>
         <p>Watch the most beloved spooky, Horror's and Thrillers in October</p>
+      </section>
+    </header>
+    <main>
+      <section class="fp-movie-collection">
         <div>
           <img
             src="images/Square_Eyes_Cover4.jpeg"
@@ -56,13 +59,15 @@
       </section>
       <section>
         <h3>Register a free account to join</h3>
-        <p>Square Eyes</p>
+        <p class="yellowtext">Square Eyes</p>
         <p>
           With Square Eyes you get access to exclusive content, the newest films
           and old classics all collected at one place.
         </p>
-        <a href="register.html">Register</a>
-        <a href="collection.html">View Collection</a>
+        <div>
+          <a href="register.html" class="fp-cta-button">Register</a>
+          <a href="collection.html" class="fp-cta-button">View Collection</a>
+        </div>
         <div>
           <img src="images/cinemachairs.jpg" alt="cinema chairs" />
         </div>
