@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,63 +19,79 @@
   </head>
   <body>
     <header>
-      <img src="images/SquareEyes_Logo.png" alt="Square eyes logo" />
+      <a href="index.html"
+        ><img
+          class="logosize"
+          src="images/SquareEyes_Logo.png"
+          alt="Square eyes logo"
+      /></a>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="contact.html">Contact Us</a></li>
           <li><a href="collection.html">Collection</a></li>
         </ul>
+        <section>
+          <img src="images/search.png" />
+          <img src="images/help.png" />
+          <img src="images/user.png" />
+          <img src="images/cart.png" />
+        </section>
       </nav>
-      <section>
+      <section class="curtainpic whitetext">
         <h1>Bringing the cinema experience home</h1>
         <p>Connecting Film Lovers</p>
-        <img src="images/curtain.png" alt="Cinema curtains" />
       </section>
       <section class="centertext">
         <h2>It's Spooky Season!</h2>
-        <p>Watch the most beloved spooky, Horror's and Thrillers in October</p>
+        <p class="nomargin">
+          Watch the most beloved spooky, Horror's and Thrillers in October
+        </p>
       </section>
     </header>
     <main>
-      <section class="fp-movie-collection">
+      <section class="moviebackround">
         <div>
+          <a href="/products/scream.html"
+            ><img
+              class="scream"
+              src="images/Square_Eyes_Cover4.jpeg"
+              alt="Movie poster for the film Scream"
+          /></a>
           <img
-            src="images/Square_Eyes_Cover4.jpeg"
-            alt="Movie poster for the film Scream"
-          />
-          <img
+            class="sweetheart"
             src="images/Square_Eyes_Cover5.jpeg"
             alt="Movie poster for the film Sweetheart"
           />
           <img
+            class="fp-movie-collection"
             src="images/Square_Eyes_Cover6.jpeg"
             alt="Movie poster for the film Addams Family"
           />
+          <a href="/products/batman.html"
+            ><img
+              class="fp-movie-collection"
+              src="images/Square_Eyes_Cover7.jpeg"
+              alt="Movie poster for the film Batman"
+          /></a>
           <img
-            src="images/Square_Eyes_Cover7.jpeg"
-            alt="Movie poster for the film Batman"
-          />
-          <img
+            class="fp-movie-collection"
             src="images/Square_Eyes_Cover2.jpeg"
             alt="Movie poster for the film Godzilla"
           />
         </div>
       </section>
-      <section>
-        <h3>Register a free account to join</h3>
+      <section class="cinemapic whitetext">
+        <h3 class="nomargin">Register a free account to join</h3>
         <p class="yellowtext">Square Eyes</p>
         <p>
           With Square Eyes you get access to exclusive content, the newest films
           and old classics all collected at one place.
         </p>
         <div>
-          <a href="register.html" class="fp-cta-button">Register</a>
-          <a href="collection.html" class="fp-cta-button">View Collection</a>
-        </div>
-        <div>
-          <img src="images/cinemachairs.jpg" alt="cinema chairs" />
+          <a href="register.html" class="gray-cta">Register</a>
+          <a href="collection.html" class="gray-cta">View Collection</a>
         </div>
       </section>
     </main>

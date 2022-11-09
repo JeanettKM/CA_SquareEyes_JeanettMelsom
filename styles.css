@@ -1,33 +1,31 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+
 header,
 footer{
-    background-color: EFEFEF;
+    background-color: #EFEFEF;
 }
 
 footer {
     text-align: center;
 }
 
+.nomargin {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+}
+
 header a {
     color: rgb(25, 25, 25);
 }
 
-.fp-cta-button {
-    background-color: gray;
-    color:white;
+.logosize {
+    max-width: 140px;
 }
 
-.fp-movie-collection {
-    background-color: rgb(37, 37, 37);
-}
-
-.centertext {
-    text-align: center;
-}
-
-.about-us-main {
-    background-color: rgb(37, 37, 37);
-    color: rgb(255, 255, 255);
-}
+/*Text variations*/
 
 .yellowtext {
     color:rgb(170, 133, 0)
@@ -38,18 +36,172 @@ header a {
     color: white
 }
 
+.centertext {
+    text-align: center;
+}
+
+.redtext {
+    color: #7C0000;
+}
+
+.redhighlight {
+    background-color: #7C0000;
+    color: white;
+}
+
+
+/*buttons*/
+
+.yellow-cta {
+    background-color: #AA8500;
+    color: white;
+}
+
+.gray-cta {
+    background-color: gray;
+    color:white;
+}
+
+.red-cta {
+    background-color: #7C0000;
+    color: white;
+}
+
+/* homepage */
+
+.whitetext {
+    color: white;
+}
+
+.moviebackround {
+    background-color: #252525;
+}
+
+/* Movie posters */
+
+.fp-movie-collection {
+    max-width: 210px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.batman {
+    max-width: 210px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.sweetheart {
+    max-width: 220px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.hobbs {
+    max-width: 196px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.scream {
+    max-width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+nav,
+nav li{
+    display: inline-block;
+
+
+}
+
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.cinemapic {
+    background-image: url(../images/cinemachairs.jpg);
+    background-size: cover;
+    min-height: 40vh;
+
+}
+
+.curtainpic {
+    background-image: url(../images/curtain.png);
+    background-size: cover;
+    min-height: 25vh;
+}
+
+/* about us */
+
+.about-us-main {
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+}
+
+/*contact us */
+
 .contact-us-backround {
     background-color: rgb(37, 37, 37);
     color: white;
 }
+
+.mappic {
+    border-radius: 100%;
+    width: 250px;
+    
+}
+
+input, select, textarea {
+    border-radius: 3px;
+    border: 0px;
+    background-color: #535353;
+    color: white;
+
+}
+
+/* collection */
 
 .collection-backround {
     background-color: rgb(37, 37, 37);
     color: white;
 }
 
+.genrebutton {
+    border-radius: 3px;
+    border: 0px;
+    background-color: #ACACAC;
+    color: #8A0404;
+
+}
+
+.pulpfictionbig {
+    background-image: url(images/pulpfiction.jpg);
+    min-height: 80vh; 
+}
+
+/* product pages */
+
 .product-page-backround {
     background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+/* your cart */
+
+.shopnavbar {
+    background-color: #1A1919;
+    text-align: center;
+}
+
+.shopnavtext {
     color: white;
 }
 
@@ -58,27 +210,53 @@ header a {
     color: white;
 }
 
+.your-cart-line {
+    background-color: #40403F;
+    color: white;
+
+}
+
+.batmansmall {
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+.godzillasmall {
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+/* check out */
+
 .checkout-backround {
     background-color: #40403F;
     color: white;
 }
 
+/* order confirmed */
+
 .order-confirmed-backround {
-    background-color: #40403F;
-    color: white;
-}
-
-.your-cart-line {
-    background-color: #40403F;
-    color: white;
-}
-
-.order-proccess-block {
     background-color: #1A1919;
     color: white;
 }
 
-.yellow-cta {
-    background-color: #AA8500;
-    color: white;
+.order-confirmed-image {
+    background-image: url(images/popcorn.jpg);
+    background-size: cover;
+    min-height: 50vh; 
+    opacity: 40%;
+}
+
+/*Register page*/
+
+.backroundcolor {
+    background-color: #D9D9D9;
+}
+
+
+.popcornpic {
+    background-image: url(images/popcorn.jpg);
+    background-size: cover;
+    min-height: 15vh; 
+    opacity: 80%;
 }

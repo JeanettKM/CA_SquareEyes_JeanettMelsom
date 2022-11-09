@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,18 +13,27 @@
   </head>
   <body>
     <header>
-      <img src="images/SquareEyes_Logo.png" alt="Square eyes logo" />
+      <a href="index.html"
+      ><img
+        class="logosize"
+        src="images/SquareEyes_Logo.png"
+        alt="Square eyes logo"
+    /></a>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
           <li><a href="collection.html">Collection</a></li>
         </ul>
+        <img src="images/search.png" />
+        <img src="images/help.png" />
+        <img src="images/user.png" />
+        <img src="images/cart.png" />
       </nav>
     </header>
     <main class="contact-us-backround">
-      <p>Contact us at</p>
+      <p class="nomargin">Contact us at</p>
       <h1 class="yellowtext">Square eyes</h1>
     </section>
       <section>
@@ -37,8 +49,27 @@
         </p>
       </section>
       <section>
-        <img src="images/map.png" alt="Map over our location in Trondheim" />
-        <p>Check out our social media for regular updates!</p>
+        <form method="post">
+          <label for="First name">First name</label>
+          <input type="text" id="First name" name="name">
+          <label for="Surname">Surname</label>
+          <input type="text" id="Surname" name" name="surname">
+          <label for="Email">Email adress</label>
+          <input type="email" id="Email" name="email">
+          <label for="contact">Contact me by</label>
+          <select id="contact" name="contact">
+            <option value="Phone">Phone</option>
+            <option value="Email">Email</option>
+          </select>
+            <label for="explain what you need help with">explain what you need help with</label>
+            <textarea id="explain what you need help with" name="explain what you need help with"></textarea>
+          </select>
+          <input class="yellow-cta" type="submit" value="SEND"/>
+        </form>
+      </section>
+      <section>
+        <img src="images/map.png" alt="Map over our location in Trondheim" class="mappic"/>
+        <p class="nomargin">Check out our social media for regular updates!</p>
       </section>
     </main>
     <footer>Square Eyes &copy;</footer>

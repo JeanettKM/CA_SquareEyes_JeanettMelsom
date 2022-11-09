@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,47 +19,131 @@
   </head>
   <body>
     <header>
-      <img src="images/SquareEyes_Logo.png" alt="Square eyes logo" />
+      <a href="index.html"
+        ><img
+          class="logosize"
+          src="images/SquareEyes_Logo.png"
+          alt="Square eyes logo"
+      /></a>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="collection.html">Collection</a></li>
+          <li><a href="collection.html" class="active">Collection</a></li>
         </ul>
+        <img src="images/search.png" />
+        <img src="images/help.png" />
+        <img src="images/user.png" />
+        <img src="images/cart.png" />
       </nav>
     </header>
     <main class="collection-backround">
       <section>
-        <button>Genre</button>
+        <form>
+          <select class="genrebutton" id="genre" name="Genre">
+            <option value="Genre">Genre</option>
+            <option value="Horror">Horror</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Action">Action</option>
+            <option value="Documentary">Documentary</option>
+            <option value="Romance">Romance</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Animation">Animation</option>
+            <option value="Thriller">Thriller</option>
+          </select>
+        </form>
       </section>
-      <h1>Watch PULP FICTION (1994)</h1>
-      <div>
-        <a href="products/pulpfiction.html">play</a>
-        <img src="images/pulpfiction.jpg" alt="Watch pulp fiction" />
-      </div>
-      <p class="yellowbackround centertext">
-        Celebrating the season of halloween get 20% discount
-      </p>
+      <section class="pulpfictionbig">
+        <h1>Watch PULP FICTION (1994)</h1>
+        <div>
+          <a href="products/pulpfiction.html"
+            ><img src="images/play.png" alt="click to view Pulp fiction"
+          /></a>
+        </div>
+      </section>
       <section>
+        <p class="yellowbackround centertext nomargin">
+          Celebrating the season of halloween get 20% discount
+        </p>
         <p>Most Popular</p>
-        <img src="images/Square_Eyes_Cover1.jpeg" alt="" />
-        <img src="images/Square_Eyes_Cover2.jpeg" alt="" />
-        <img src="images/Square_Eyes_Cover3.jpeg" alt="" />
-        <img src="images/Square_Eyes_Cover4.jpeg" alt="" />
-        <img src="images/Square_Eyes_Cover5.jpeg" alt="" />
-        <img src="images/Square_Eyes_Cover6.jpeg" alt="" />
-        <img src="images/Square_Eyes_Cover7.jpeg" alt="" />
+        <img
+          class="hobbs"
+          src="images/Square_Eyes_Cover1.jpeg"
+          alt="Movie poster for the film Fast and furious"
+        />
+        <img
+          class="fp-movie-collection"
+          src="images/Square_Eyes_Cover2.jpeg"
+          alt="Movie poster for the film Godzilla"
+        />
+        <img
+          class="fp-movie-collection"
+          src="images/Square_Eyes_Cover3.jpeg"
+          alt="Movie poster for the film once upon a time in Hollywood"
+        />
+        <a href="/products/scream.html"
+          ><img
+            class="scream"
+            src="images/Square_Eyes_Cover4.jpeg"
+            alt="Movie poster for the film Scream"
+        /></a>
+        <img
+          class="sweetheart"
+          src="images/Square_Eyes_Cover5.jpeg"
+          alt="Movie poster for the film Sweetheart"
+        />
+        <img
+          class="fp-movie-collection"
+          src="images/Square_Eyes_Cover6.jpeg"
+          alt="Movie poster for the film The Addams Family"
+        />
+        <a href="/products/batman.html"
+          ><img
+            class="fp-movie-collection"
+            src="images/Square_Eyes_Cover7.jpeg"
+            alt="Movie poster for the film Batman"
+        /></a>
       </section>
       <section>
         <p>New releases</p>
-        <img src="images/Square_Eyes_Cover1.jpeg" alt="" />
-        <img src="images/Square_Eyes_Cover2.jpeg" alt="" />
-        <img src="images/Square_Eyes_Cover3.jpeg" alt="" />
-        <img src="images/Square_Eyes_Cover4.jpeg" alt="" />
-        <img src="images/Square_Eyes_Cover5.jpeg" alt="" />
-        <img src="images/Square_Eyes_Cover6.jpeg" alt="" />
-        <img src="images/Square_Eyes_Cover7.jpeg" alt="" />
+        <img
+          class="hobbs"
+          src="images/Square_Eyes_Cover1.jpeg"
+          alt="Movie poster for the film Fast and furious"
+        />
+        <img
+          class="fp-movie-collection"
+          src="images/Square_Eyes_Cover2.jpeg"
+          alt="Movie poster for the film Godzilla"
+        />
+        <img
+          class="fp-movie-collection"
+          src="images/Square_Eyes_Cover3.jpeg"
+          alt="Movie poster for the film once upon a time in Hollywood"
+        />
+        <a href="/products/scream.html"
+          ><img
+            class="scream"
+            src="images/Square_Eyes_Cover4.jpeg"
+            alt="Movie poster for the film Scream"
+        /></a>
+        <img
+          class="sweetheart"
+          src="images/Square_Eyes_Cover5.jpeg"
+          alt="Movie poster for the film Sweetheart"
+        />
+        <img
+          class="fp-movie-collection"
+          src="images/Square_Eyes_Cover6.jpeg"
+          alt="Movie poster for the film The Addams Family"
+        />
+        <a href="/products/batman.html"
+          ><img
+            class="fp-movie-collection"
+            src="images/Square_Eyes_Cover7.jpeg"
+            alt="Movie poster for the film Batman"
+        /></a>
       </section>
     </main>
     <footer>Square Eyes &copy;</footer>

@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,7 +17,12 @@
   </head>
   <body>
     <header>
-      <img src="images/SquareEyes_Logo.png" alt="Square eyes logo" />
+      <a href="index.html"
+        ><img
+          class="logosize"
+          src="images/SquareEyes_Logo.png"
+          alt="Square eyes logo"
+      /></a>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -21,18 +30,20 @@
           <li><a href="contact.html">Contact Us</a></li>
           <li><a href="collection.html">Collection</a></li>
         </ul>
+        <img src="images/search.png" />
+        <img src="images/help.png" />
+        <img src="images/user.png" />
+        <img src="images/cart.png" />
       </nav>
       <section>
-        <p>Welcome to</p>
-        <h1>Square Eyes</h1>
+        <p class="redhighlight">Welcome to</p>
+        <h1 class="redtext">Square Eyes</h1>
         <p>Register to make an account</p>
         <p>And get access to all of our collection</p>
       </section>
     </header>
     <main>
-      <section>
-        <img src="images/popcorn.jpg" alt="popcorn backroundpicture" />
-      </section>
+      <section class="popcornpic"></section>
       <section>
         <p>Share accounts</p>
         <p>
@@ -63,6 +74,19 @@
           When you purchase a movie from us you will always get the most up to
           date, lowest price for the films.
         </p>
+      </section>
+      <section>
+        <form method="post">
+          <label for="Email">Email</label>
+          <input type="Email" id="Email" name="Email" />
+          <label for="Passwrord">Password</label>
+          <input type="text" id="FPassword" name="Password" />
+          <input type="checkbox" id="Remember me" />
+          <label>Remember me</label>
+          <input class="" type="submit" value="LOG IN" />
+        </form>
+
+        <p>Log in or register new account</p>
       </section>
     </main>
     <footer>Square Eyes &copy;</footer>

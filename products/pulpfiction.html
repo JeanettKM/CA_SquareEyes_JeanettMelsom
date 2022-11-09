@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,18 +19,27 @@
   </head>
   <body>
     <header>
-      <img src="../images/SquareEyes_Logo.png" alt="Square eyes logo" />
+      <a href="../index.html"
+        ><img
+          class="logosize"
+          src="../images/SquareEyes_Logo.png"
+          alt="Square eyes logo"
+      /></a>
       <nav>
         <ul>
           <li><a href="../index.html">Home</a></li>
           <li><a href="../about.html">About Us</a></li>
           <li><a href="../contact.html">Contact Us</a></li>
-          <li><a href="../collection.html">Collection</a></li>
+          <li><a href="../collection.html" class="active">Collection</a></li>
         </ul>
+        <img src="../images/search.png" />
+        <img src="../images/help.png" />
+        <img src="../images/user.png" />
+        <img src="../images/cart.png" />
       </nav>
     </header>
     <main class="product-page-backround">
-      <h1 class="yellowbackround">Pulp fiction</h1>
+      <h1 class="yellowbackround nomargin">Pulp fiction</h1>
       <section>
         <img
           src="../images/pulpfiction.jpg"
@@ -45,19 +60,26 @@
       </section>
       <section>
         <p>Similar to this</p>
+        <p>Similar to this</p>
+        <a href="../products/scream.html"
+          ><img
+            class="scream"
+            src="../images/Square_Eyes_Cover4.jpeg"
+            alt="Movie poster for the film Scream"
+        /></a>
         <img
-          src="../images/Square_Eyes_Cover4.jpeg"
-          alt="click for information about Scream"
-        />
-        <img
+          class="hobbs"
           src="../images/Square_Eyes_Cover1.jpeg"
           alt="click for information about Fast and the furious"
         />
         <img
+          class="sweetheart"
           src="../images/Square_Eyes_Cover5.jpeg"
           alt="click for information about Sweetheart"
         />
+
         <img
+          class="fp-movie-collection"
           src="../images/Square_Eyes_Cover2.jpeg"
           alt="click for information about Godzilla"
         />
