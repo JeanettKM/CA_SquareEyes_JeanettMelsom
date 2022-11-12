@@ -112,7 +112,8 @@ nav li{
 
 
 
-/*text transformation/positioning HOMEPAGE*/
+/*text transformat
+padding:ion/positioning HOMEPAGE*/
 
 .weight300 {
     font-weight: 300;
@@ -122,7 +123,8 @@ nav li{
 .register {
     font-size: 43px;
     font-weight: 300;
-    text-transform: uppercase;
+    text-transform: 
+    padding:uppercase;
     padding: 10px;
 }
 .freeaccount {
@@ -134,7 +136,8 @@ nav li{
 
 .squareeyes {
     font-size: 90px;
-    text-transform: uppercase;
+    text-transform: 
+    padding:uppercase;
     color: #AA8500;
 
 }
@@ -181,10 +184,12 @@ nav li{
 }
 
 .uppercase {
-    text-transform: uppercase;
+    text-transform: 
+    padding:uppercase;
 }
 
-/*text transformation/positioning REGISTER*/
+/*text transformat
+padding:ion/positioning REGISTER*/
 
 .squareeyesreg {
     font-size: 80px;
@@ -223,19 +228,8 @@ nav li{
 
 }
 
-/*text transformation/positioning COLLECTION*/
-
-.textpositioning {
-    position: relative;
-    top: 10px;
-    left: 100px;
-}
-
-.genre-button-position {
-    position: absolute;
-    top: 10px;
-    left: 1650px;
-}
+/*text transformat
+padding:ion/positioning COLLECTION*/
 
 
 /*buttons*/
@@ -245,25 +239,9 @@ nav li{
     color: white;
     padding: 10px 50px;
     border-radius: 5px;
-    text-transform: capitalize;
+    text-transform: 
+    padding:capitalize;
 }
-
-.gray-cta {
-    background-color: gray;
-    color:white;
-    padding: 15px 70px;
-    border-radius: 5px;
-    font-weight: 300;
-}
-
-.red-cta {
-    background-color: #7C0000;
-    color: white;
-    padding: 10px 50px;
-    border-radius: 5px;
-    text-transform: capitalize;
-}
-
 /* homepage */
 
 .whitetext {
@@ -339,35 +317,6 @@ a {
     color: rgb(255, 255, 255);
 }
 
-.ourgoaltext {
-    font-size: 15px;
-    font-weight: 300;
-    position: relative;
-    top: 0px;
-    left: 50px;
-    color: white;
-    letter-spacing: 1px;
-}
-
-.squareeyes__about {
-    font-size: 40px;
-    text-transform: uppercase;
-    position: relative;
-    top: 0px;
-    left: 50px;
-    color: #AA8500;
-    letter-spacing: 5px;
-    }
-
-    .infoaboutus {
-        font-size: 15px;
-        font-weight: 300;
-        position: relative;
-        top: -40px;
-        left: 50px;
-        letter-spacing: 2px;
-    }
-
     .allatoneplace {
         position: static;
         top: 50px;
@@ -386,19 +335,12 @@ a {
     position: relative;
     top: -300px;
     left: 1390px;
-    text-transform: uppercase;
+    text-transform: 
+    padding:uppercase;
     font-weight: 300;
 
 }
 
-.yellowbackround_aboutus {
-    background-color: rgb(170, 133, 0);
-    color: white;
-    font-weight: 300;
-    padding: 10px 10px 10px 50px;
-    font-size: 14.5px;
-    letter-spacing: 3px;
-}
 
 .aboutus {
     margin: auto;
@@ -430,7 +372,8 @@ a {
 
 .squareeyes__contact {
     font-size: 60px;
-    text-transform: uppercase;
+    text-transform: 
+    padding:uppercase;
     position: relative;
     top: 0px;
     left: 100px;
@@ -469,36 +412,14 @@ input, select, textarea {
 }
 
 form {
-    display: flex;
-    position: relative;
-    top: -50px;
-    left: 170px;
+    padding: 10px;
+    flex-direction: row;
 }
-
-.form-wrapper{
-    display: flex;
-}
-
-.form-wrapper > * {
-    flex: 1;
-}
-
-.formcollum {
-    display: flex;
-    flex-direction: column;
-} 
 
 input, select, textarea {
     margin: 10px 10px 10px 0px;
 }
 
-.openinghours {
-    font-size: 18px;
-    font-weight: 300;
-    position: relative;
-    top: 30px;
-    left: 100px;
-}
 
 .socialmediatext {
     font-size: 16px;
@@ -533,24 +454,10 @@ input, select, textarea {
     text-align: center;
 }
 
-.genrebutton {
-    border-radius: 3px;
-    border: 0px;
-    background-color: #ACACAC;
-    color: #8A0404;
-    padding: 30px;
-}
-
 .playbutton {
     position: absolute;
     top: 300px;
     left: 850px;
-}
-
-.movetitletextpositioning {
-    position: relative;
-    top: 30px;
-    left: 30px;
 }
 
 .pulpfictionbig {
@@ -710,23 +617,6 @@ _________
 
  /*HOMEPAGE*/
 
- .cinematext {
-    text-transform: uppercase;
-    font-weight: 300;
-    letter-spacing: 1px;
-    padding: 10px;
-    color: white;
-    padding: 20px;
-
- }
-
- .Yellowsquareyes {
-    font-size: 60px;
-    color: #AA8500;
-    text-transform: uppercase;
-    margin: 0px;
-    padding: 10px;
- }
 
 
  .cinemapic {

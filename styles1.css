@@ -13,6 +13,46 @@ footer {
     padding: 15px;
 }
 
+
+body {
+    font-family: 'Roboto Condensed', sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*HOMEPAGE*/
+.HP-textmargin-one {
+   margin-top: 120px;
+}
+
+.HP-textmargin-two {
+    margin-bottom: 15px;
+}
+
+.cta-gray-FP-maring{
+    margin-left: 90px;
+    margin-right: 50px;
+}
+
+.gray-cta {
+    background-color: gray;
+    color:white;
+    padding: 15px 70px;
+    border-radius: 5px;
+    font-weight: 300;
+}
+
 .flexconteiner {
     display: flex;
     flex-direction: row;
@@ -24,34 +64,105 @@ footer {
     flex: 1;
 }
 
-/*PADDING*/
-.HP-textmargin-one {
-   margin-top: 120px;
-}
+.Yellowsquareyes {
+    font-size: 60px;
+    color: #c39900;
+    text-transform: 
+    padding:uppercase;
+    margin: 0px;
+    padding: 10px;
+ }
 
-.HP-textmargin-two {
-    margin-bottom: 15px;
-}
+ .cinematext {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 10px;
+    color: white;
+    padding: 20px;
 
-.contact-us-height {
-    min-height: 500px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT US PAGE */
+
+.about-us-margin-one{
+    margin-top: 60px;
 }
 
 .about-us-main-height {
     height: 700px;
 }
 
-.cta-gray-FP-maring{
-    margin-left: 90px;
-    margin-right: 50px;
+.infoaboutus {
+    font-size: 15px;
+    font-weight: 300;
+    position: relative;
+    letter-spacing: 2px;
+    text-align: center;
 }
 
-.about-us-margin-one{
-    margin-top: 60px;
-}
+.flexconteiner-aboutus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    margin:auto;
+    align-content: center;
+    align-items: center;
+ }
+
+ .squareeyes__about {
+    font-size: 40px;
+    text-transform:uppercase;
+    position: relative;
+    color: #c39900;
+    letter-spacing: 5px;
+    text-align: center;
+    }
+
+.yellowbackround_aboutus {
+        background-color: #c39900;
+        color: white;
+        text-align: center;
+        font-weight: 300;
+        padding: 10px 10px 10px 50px;
+        font-size: 14.5px;
+        letter-spacing: 3px;
+    }
+
+    .ourgoaltext {
+        font-size: 15px;
+        font-weight: 300;
+        color: white;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+/*CONTACT US PAGE*/
 
 .contact-us-main-height{
-    height: 700px
+    height: 500px;
+}
+
+.contact-us-width {
+    max-width: 1000px;
 }
 
 .contact-us-form-margin {
@@ -60,4 +171,208 @@ footer {
 
 .contact-socials-margin {
     margin-left: 750px;
+}
+
+.openinghours {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.flexconteinercontact {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+
+}
+
+.conactflexitem {
+    flex: 1;
+}
+
+.one{
+    flex: 3;
+}
+
+.two {
+    flex: 1;
+    justify-content: center;
+}
+
+.three {
+    flex: 3;
+}
+
+.iconpadding {
+    padding: 10px;
+    margin: 3px;
+}
+
+.sosialmediagrid {
+    display: inline-flexbox
+}
+
+.centeralign {
+    text-align: center;
+}
+
+.sosialmedia1{
+    position: absolute;
+    top: -170px;
+    left: 850px;
+}
+.sosialmedia2{
+    position: absolute;
+    top: -200px;
+    left: 830px;
+}
+
+.relative {
+    position: relative;
+}
+
+.backgroundcolor {
+    background-color: #252525;
+}
+
+.backgroundcolorcontact {
+    background-color: #323232;
+}
+
+.whitetext{
+    color: white;
+    font-weight: 300;
+}
+
+.contact {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: white;
+}
+
+.textpadding {
+    padding: 20px;
+}
+
+.textaligncenterform {
+    text-align: center;
+}
+
+
+
+
+
+/*REGISTER PAGE*/
+
+.flexconteiner2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flexitem2 {
+    flex: 1;
+}
+
+.flexconteiner3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+
+.flexitem3 {
+    flex: 1;
+}
+
+.squareeyestext {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #a52a2a;
+    font-weight:500;
+    padding: 10px;
+    margin: 0%;
+}
+
+.red-cta {
+    background-color: #a52a2a;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+.registerinfo {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 17px;
+    color: #EFEFEF;
+    background-color: #a52a2a;
+    padding: 5px;
+    margin: 0%;
+}
+.registerinfo2 {
+    text-transform: uppercase;
+    color: #a52a2a;
+}
+
+.registerinfo3 {
+    font-weight: 300;
+
+}
+
+.registerinfo4 {
+    text-transform: uppercase;
+    color: #a52a2a;
+    font-weight: 300;
+    text-align: center;
+}
+
+.registerinfo5 {
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+/*COLLECTION*/
+
+.genrebutton {
+    border-radius: 3px;
+    border: 0px;
+    background-color: #ACACAC;
+    color: #8A0404;
+    padding: 10px;
+    text-align: center;
+}
+
+.textpositioning {
+}
+
+.textwidthmovies {
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.whitetextlink {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
 }
