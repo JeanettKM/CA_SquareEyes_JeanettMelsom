@@ -2,9 +2,17 @@ body {
     font-family: 'Roboto Condensed', sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
 }
 
-header,
-footer{
+header,{
+    overflow: hidden;
+    justify-content: space-between;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
     background-color: #EFEFEF;
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+  
 }
 
 footer {
@@ -17,12 +25,32 @@ footer {
     
 }
 
+.test {
+    postion:relative;
+}
+
+.nomargin2 {
+    margin: 0%;
+    
+}
+
 header a {
     color: rgb(25, 25, 25);
 }
 
+nav img {
+    padding: 5px;
+}
+
 .logosize {
     max-width: 140px;
+}
+
+.navbuttonsize {
+    max-width: 35px;
+}
+.searchbuttonsize {
+    max-width: 31px;
 }
 
 /*Text variations*/
@@ -33,7 +61,11 @@ header a {
 
 .yellowbackround {
     background-color: rgb(170, 133, 0);
-    color: white
+    color: white;
+    font-weight: 300;
+    padding: 10px 10px;
+    font-size: 18px;
+    letter-spacing: 3px;
 }
 
 .centertext {
@@ -50,21 +82,186 @@ header a {
 }
 
 
+/*NAV positioning*/
+
+.navpositioning {
+    display: flex;
+    align-items: baseline;
+    font: size 20px;
+    
+}
+
+.navbuttonspositioning {
+    position: relative;
+    left: 1050px;
+    padding: 15px;
+    top: 10px;
+    max-width: 35px;
+}
+
+.navpadding {
+    padding: 15px;
+}
+
+nav,
+nav li{
+    display: inline-block;
+
+
+}
+
+
+
+/*text transformation/positioning HOMEPAGE*/
+
+.weight300 {
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.register {
+    font-size: 43px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.freeaccount {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0px 10px 10px 10px;
+
+}
+
+.squareeyes {
+    font-size: 90px;
+    text-transform: uppercase;
+    color: #AA8500;
+
+}
+.fp_info_register {
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 10px;
+}
+
+.gray-cta-positioning1 {
+    position: absolute;
+    top: 880px;
+    left: 810px;
+}
+.gray-cta-positioning2 {
+    position: absolute;
+    top: 880px;
+    left: 1050px;
+}
+
+.FP_spooky{
+    position: relative;
+    top: 5px;
+    font-size: 15px;
+}
+
+.Spooky_season {
+    position: relative;
+    top: -10px;
+    font-weight: 300;
+}
+
+.cinemaexperience1 {
+    position: absolute;
+    left: 30px;
+
+}
+.cinemaexperience2 {
+    position: absolute;
+    top: 400px;
+    left: 30px;
+
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*text transformation/positioning REGISTER*/
+
+.squareeyesreg {
+    font-size: 80px;
+    position: relative;
+    top: -300;
+    left: 50px;
+    margin: 0px;
+}
+
+.welcometo {
+    font-size: 30px;
+    position: relative;
+    top: -300;
+    left: 5px;
+    margin: 0px;
+    padding: 5px 50px;
+}
+
+.makeanaccount1 {
+    font-size: 17px;
+    position: relative;
+    top: -300;
+    left: 55px;
+    margin: 0px;
+    letter-spacing: 8px;
+
+}
+
+.makeanaccount2 {
+    font-size: 16px;
+    position: relative;
+    top: 5px;
+    left: 235px;
+    margin: 0px;
+    letter-spacing: 0.5px;
+
+}
+
+/*text transformation/positioning COLLECTION*/
+
+.textpositioning {
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+
+.genre-button-position {
+    position: absolute;
+    top: 10px;
+    left: 1650px;
+}
+
+
 /*buttons*/
 
 .yellow-cta {
     background-color: #AA8500;
     color: white;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-transform: capitalize;
 }
 
 .gray-cta {
     background-color: gray;
     color:white;
+    padding: 15px 70px;
+    border-radius: 5px;
+    font-weight: 300;
 }
 
 .red-cta {
     background-color: #7C0000;
     color: white;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-transform: capitalize;
 }
 
 /* homepage */
@@ -109,13 +306,6 @@ header a {
     border-radius: 10px;
 }
 
-nav,
-nav li{
-    display: inline-block;
-
-
-}
-
 
 /* Links */
 a {
@@ -129,7 +319,10 @@ a {
 .cinemapic {
     background-image: url(../images/cinemachairs.jpg);
     background-size: cover;
-    min-height: 40vh;
+    min-height: 60vh;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+
 
 }
 
@@ -146,6 +339,79 @@ a {
     color: rgb(255, 255, 255);
 }
 
+.ourgoaltext {
+    font-size: 15px;
+    font-weight: 300;
+    position: relative;
+    top: 0px;
+    left: 50px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.squareeyes__about {
+    font-size: 40px;
+    text-transform: uppercase;
+    position: relative;
+    top: 0px;
+    left: 50px;
+    color: #AA8500;
+    letter-spacing: 5px;
+    }
+
+    .infoaboutus {
+        font-size: 15px;
+        font-weight: 300;
+        position: relative;
+        top: -40px;
+        left: 50px;
+        letter-spacing: 2px;
+    }
+
+    .allatoneplace {
+        position: static;
+        top: 50px;
+        left: -10px;
+    }
+
+    
+.aboutus_logo {
+    position: relative;
+    top: -300px;
+    left: 1350px;
+
+}
+
+.aboutus_text {
+    position: relative;
+    top: -300px;
+    left: 1390px;
+    text-transform: uppercase;
+    font-weight: 300;
+
+}
+
+.yellowbackround_aboutus {
+    background-color: rgb(170, 133, 0);
+    color: white;
+    font-weight: 300;
+    padding: 10px 10px 10px 50px;
+    font-size: 14.5px;
+    letter-spacing: 3px;
+}
+
+.aboutus {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+
+}
+
+.aboutus > * {
+    flex: 1;
+}
+
 /*contact us */
 
 .contact-us-backround {
@@ -153,9 +419,40 @@ a {
     color: white;
 }
 
+.yellowbackround_contact {
+    background-color: rgb(170, 133, 0);
+    color: white;
+    font-weight: 300;
+    padding: 10px 10px 10px 100px;
+    font-size: 14.5px;
+    letter-spacing: 3px;
+}
+
+.squareeyes__contact {
+    font-size: 60px;
+    text-transform: uppercase;
+    position: relative;
+    top: 0px;
+    left: 100px;
+    color: #AA8500;
+    letter-spacing: 5px;
+    }
+
+.contactusat {
+    font-size: 20px;
+    font-weight: 300;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    letter-spacing: 2px;
+}
+
 .mappic {
-    border-radius: 100%;
-    width: 250px;
+    border-radius: 1000px;
+    width: 300px;
+    position: relative;
+    top: -200px;
+    left: 200px;
     
 }
 
@@ -164,14 +461,76 @@ input, select, textarea {
     border: 0px;
     background-color: #535353;
     color: white;
-
 }
+
+.contact {
+    max-width: 800px;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    position: relative;
+    top: -50px;
+    left: 170px;
+}
+
+.form-wrapper{
+    display: flex;
+}
+
+.form-wrapper > * {
+    flex: 1;
+}
+
+.formcollum {
+    display: flex;
+    flex-direction: column;
+} 
+
+input, select, textarea {
+    margin: 10px 10px 10px 0px;
+}
+
+.openinghours {
+    font-size: 18px;
+    font-weight: 300;
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+
+.socialmediatext {
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    top: -180px;
+    left: 210px;ƒ
+    letter-spacing: 3px;
+}
+
+.socialmediapic1 {
+    position: static;
+  
+}
+.socialmediapic2 {
+    position: static;
+    
+}
+.socialmediapic3 {
+    position: static;
+    
+}
+
+
+
 
 /* collection */
 
 .collection-backround {
     background-color: rgb(37, 37, 37);
     color: white;
+    text-align: center;
 }
 
 .genrebutton {
@@ -179,12 +538,26 @@ input, select, textarea {
     border: 0px;
     background-color: #ACACAC;
     color: #8A0404;
+    padding: 30px;
+}
 
+.playbutton {
+    position: absolute;
+    top: 300px;
+    left: 850px;
+}
+
+.movetitletextpositioning {
+    position: relative;
+    top: 30px;
+    left: 30px;
 }
 
 .pulpfictionbig {
     background-image: url(images/pulpfiction.jpg);
     min-height: 80vh; 
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 /* product pages */
@@ -259,4 +632,115 @@ input, select, textarea {
     background-size: cover;
     min-height: 15vh; 
     opacity: 80%;
+}
+
+.textpadding {
+    padding: 20px;
+}
+
+
+
+_________
+
+.moviescontainer {
+    display: flex;
+    position: static;
+}
+
+
+.spookyflex {
+    display: flex;
+    justify-content: center;
+}
+
+.main1 {
+    overflow: hidden;
+    justify-content:center;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    }
+
+.navcontainer{
+   display: flex;
+   position: static;
+ }
+
+ .navbutton {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 50px
+ }
+
+ .navbutton2 {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 0px
+ }
+
+ .header1 {
+    overflow: hidden;
+    justify-content: space-between;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+ }
+
+ .logo{
+    padding: 50px;
+    height: 100px;
+ }
+
+ .bottominfo {
+    width: 100%;
+    justify-content: center;
+ }
+
+ .bottominfo * > {
+    flex: 1;
+ }
+
+ __________
+
+ .staticfronttext {
+    position: static;
+ }
+
+ /*NEWW*/
+
+ /*HOMEPAGE*/
+
+ .cinematext {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 10px;
+    color: white;
+    padding: 20px;
+
+ }
+
+ .Yellowsquareyes {
+    font-size: 60px;
+    color: #AA8500;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 10px;
+ }
+
+
+ .cinemapic {
+    background-image: url(../images/cinemachairs.jpg);
+    background-size: cover;
+    min-height: 50vh;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+
+}
+
+.containeryey {
+    padding: 3em;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmac(250px, 1fr));;
 }

@@ -1,0 +1,63 @@
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 15px;
+}
+
+.flexconteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.flexitem {
+    flex: 1;
+}
+
+/*PADDING*/
+.HP-textmargin-one {
+   margin-top: 120px;
+}
+
+.HP-textmargin-two {
+    margin-bottom: 15px;
+}
+
+.contact-us-height {
+    min-height: 500px;
+}
+
+.about-us-main-height {
+    height: 700px;
+}
+
+.cta-gray-FP-maring{
+    margin-left: 90px;
+    margin-right: 50px;
+}
+
+.about-us-margin-one{
+    margin-top: 60px;
+}
+
+.contact-us-main-height{
+    height: 700px
+}
+
+.contact-us-form-margin {
+    margin-left: 500px;
+}
+
+.contact-socials-margin {
+    margin-left: 750px;
+}
