@@ -42,9 +42,6 @@ nav img {
     padding: 5px;
 }
 
-.logosize {
-    max-width: 140px;
-}
 
 .navbuttonsize {
     max-width: 35px;
@@ -57,15 +54,6 @@ nav img {
 
 .yellowtext {
     color:rgb(170, 133, 0)
-}
-
-.yellowbackround {
-    background-color: rgb(170, 133, 0);
-    color: white;
-    font-weight: 300;
-    padding: 10px 10px;
-    font-size: 18px;
-    letter-spacing: 3px;
 }
 
 .centertext {
@@ -233,15 +221,6 @@ padding:ion/positioning COLLECTION*/
 
 
 /*buttons*/
-
-.yellow-cta {
-    background-color: #AA8500;
-    color: white;
-    padding: 10px 50px;
-    border-radius: 5px;
-    text-transform: 
-    padding:capitalize;
-}
 /* homepage */
 
 .whitetext {
@@ -294,21 +273,6 @@ a {
     text-decoration: underline;
 }
 
-.cinemapic {
-    background-image: url(../images/cinemachairs.jpg);
-    background-size: cover;
-    min-height: 60vh;
-    background-position-y: bottom;
-    background-repeat: no-repeat;
-
-
-}
-
-.curtainpic {
-    background-image: url(../images/curtain.png);
-    background-size: cover;
-    min-height: 25vh;
-}
 
 /* about us */
 
@@ -399,12 +363,7 @@ a {
     
 }
 
-input, select, textarea {
-    border-radius: 3px;
-    border: 0px;
-    background-color: #535353;
-    color: white;
-}
+
 
 .contact {
     max-width: 800px;
@@ -419,6 +378,8 @@ form {
 input, select, textarea {
     margin: 10px 10px 10px 0px;
 }
+
+
 
 
 .socialmediatext {
@@ -474,37 +435,6 @@ input, select, textarea {
     color: white;
 }
 
-/* your cart */
-
-.shopnavbar {
-    background-color: #1A1919;
-    text-align: center;
-}
-
-.shopnavtext {
-    color: white;
-}
-
-.your-cart-backround {
-    background-color: rgb(37, 37, 37);
-    color: white;
-}
-
-.your-cart-line {
-    background-color: #40403F;
-    color: white;
-
-}
-
-.batmansmall {
-    max-width: 150px;
-    border-radius: 5px;
-}
-
-.godzillasmall {
-    max-width: 150px;
-    border-radius: 5px;
-}
 
 /* check out */
 
@@ -593,10 +523,6 @@ _________
     width: 100%;
  }
 
- .logo{
-    padding: 50px;
-    height: 100px;
- }
 
  .bottominfo {
     width: 100%;

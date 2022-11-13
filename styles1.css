@@ -1,3 +1,28 @@
+html {
+    box-sizing: border-box;
+}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+
+
+textarea,input {
+    border-radius: 3px;
+    border: 0px;
+    background-color: #535353;
+    color: white;
+}
+
+
+header, body, footer{
+    background-color: #EFEFEF;
+}
+
 header {
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -6,6 +31,10 @@ header {
     font-weight: 300;
 }
 
+.logo{
+    height: 80px;
+ }
+
 footer {
     text-align: center;
     font-size: 20px;
@@ -13,10 +42,6 @@ footer {
     padding: 15px;
 }
 
-
-body {
-    font-family: 'Roboto Condensed', sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
-}
 
 
 
@@ -80,12 +105,186 @@ body {
     padding: 10px;
     color: white;
     padding: 20px;
-
  }
 
+.squareeyes_home {
+ text-transform: uppercase;
+ font-weight: 300;
+ background-color: #c39900;
+color: white;
+padding: 1px 10px;
+font-size: 30px;
+}
+
+
+.cinemapic {
+    background-image: url(../images/cinemachairs.jpg);
+    background-size: stretch;
+    min-height: 60vh;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+
+.curtainpic {
+    background-image: url(../images/curtain.png);
+    background-size: cover;
+    min-height: 25vh;
+}
+
+
+.boxregister {
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    margin-top: 35px;
+}
+.boxregisterbutton {
+    margin-left: 5px;
+}
+
+.registerinfo1 {
+    background-color: rgba(0, 0, 0, 0.608);
+}
 
 
 
+
+
+
+
+
+/*YOUR CART*/
+
+.QTYbutton {
+    border-radius: 3px;
+    border: 0px;
+    background-color: #2d2d2d;
+    color:#c39900;
+    padding: 10px;
+    text-align: center;
+}
+
+.shopnavbar {
+    background-color: #1A1919;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.box3 {
+    margin: 40px;
+}
+
+.box4 {
+    padding: 10px 10px;
+}
+
+.box5 {
+    padding: 10px 0px 30px 0px;
+}
+
+.boxbatman {
+    margin: 30px;
+    text-align: center;
+    font-weight: 300;
+    text-shadow: #1A1919;
+}
+
+
+.yellowbackroundcart {
+    background-color: rgb(170, 133, 0);
+    color: white;
+    font-weight: 300;
+    padding: 10px 10px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.shopnavtext {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+}
+
+.your-cart-backround {
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+.your-cart-backround2 {
+    background-color:#00000067;
+    color: white;
+    text-align: center;
+}
+
+.your-cart-line {
+    background-color: #40403F;
+    color: white;
+
+}
+
+.batmansmall {
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+.godzillasmall {
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+.flexconteinercart {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.flex1 {
+    flex: 1;
+}
+.flex2 {
+    flex: 3;
+}
+
+
+
+
+
+/*CHECK OUT PAGE*/
+
+.shippayinfo {
+    text-align: center;
+    font-weight: 300;
+}
+
+textarea,input {
+    border-radius: 3px;
+    border: 0px;
+    background-color: #535353;
+    color: white;
+}
+
+
+.flextconteincheckout {
+    display: inline grid;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+}
+
+.Shipping {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cta-purchase {
+    margin: 20px;
+}
 
 
 
@@ -138,6 +337,15 @@ body {
         font-weight: 300;
         padding: 10px 10px 10px 50px;
         font-size: 14.5px;
+        letter-spacing: 3px;
+    }
+
+    .yellowbackroundcart {
+        background-color: rgb(170, 133, 0);
+        color: white;
+        font-weight: 300;
+        padding: 10px 10px;
+        font-size: 18px;
         letter-spacing: 3px;
     }
 
@@ -254,6 +462,7 @@ body {
     text-transform: uppercase;
     font-weight: 300;
     color: white;
+    margin: auto;
 }
 
 .textpadding {
@@ -263,6 +472,105 @@ body {
 .textaligncenterform {
     text-align: center;
 }
+
+.boxmodel1 {
+    background-color: #323232;
+    padding: 70px 70px;
+    margin: 20px;
+    box-sizing: border-box;
+
+}
+
+.box1 {
+    padding: 10px 5px 5px 5px;
+}
+
+.box2 {
+    margin-bottom: 450px;
+}
+
+
+
+
+
+
+
+/*PRODUCTPAGE - SCREAM*/
+
+.batmangrid {
+    display: grid;
+
+}
+
+.textaligncenter {
+    text-align: center;
+}
+
+
+.yellowhalloween {
+    background-color: #c39900;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 5px;
+    margin-top: 0%;
+    
+}
+
+.similar {
+    background-color: #c39900;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 5px;
+    margin-bottom: 0%;
+}
+
+.productinfo {
+    font-weight: 300;
+    text-align: left;
+    padding: 0px 80px;
+    
+}
+
+.price {
+    font-size: 20px;
+    color: white;
+    background-color: #c39900;
+    border-radius: 1px;
+    padding: 0px;
+}
+
+.yellow-cta {
+    background-color: #c39900;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-transform:uppercase;
+    font-weight: 300;
+
+}
+
+.titel {
+    background-color: #c39900;
+    color: white;
+    text-transform:uppercase;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.moviepicture {
+    height: 450px;
+}
+
+
+
+
+
+
 
 
 
@@ -296,14 +604,14 @@ body {
     font-size: 30px;
     text-transform: uppercase;
     color: white;
-    background-color: #a52a2a;
+    background-color:#8A0404;
     font-weight:500;
     padding: 10px;
     margin: 0%;
 }
 
 .red-cta {
-    background-color: #a52a2a;
+    background-color:#8A0404;
     color: white;
     padding: 10px 40px;
     border-radius: 5px;
@@ -318,7 +626,7 @@ body {
     font-weight: 300;
     font-size: 17px;
     color: #EFEFEF;
-    background-color: #a52a2a;
+    background-color:#8A0404;
     padding: 5px;
     margin: 0%;
 }

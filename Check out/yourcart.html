@@ -19,8 +19,8 @@
       content="Watch and collect your favorite movies with Square Eyes"
     />
     <title>Square Eyes | Your Cart</title>
-    <link href="styles.css" rel="stylesheet" />
-    <link href="styles1.css" rel="stylesheet" />
+    <link href="../styles.css" rel="stylesheet" />
+    <link href="../styles1.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -49,63 +49,72 @@
     </header>
     <main class="your-cart-backround">
       <section class="shopnavbar">
-        <a class="shopnavtext active" href="yourcart.html">Your cart</a>
-        <a class="shopnavtext" href="checkout.html">Payment</a>
-        <a class="shopnavtext" href="orderconfirmed.html">Order confirmed</a>
+        <a class="box3 shopnavtext active" href="../Check out/yourcart.html"
+          >Your cart</a
+        >
+        <a class="box3 shopnavtext" href="../Check out/checkout.html"
+          >Payment</a
+        >
+        <a class="box3 shopnavtext" href="../Check out/orderconfirmed.html"
+          >Order confirmed</a
+        >
       </section>
       <section>
-        <h1 class="your-cart-line nomargin">Your cart</h1>
+        <h1 class="box4 your-cart-line nomargin shopnavtext">Your cart</h1>
       </section>
-      <section>
-        <a href="../products/batman.html"
-          ><img
-            class="fp-movie-collection"
-            src="../images/Square_Eyes_Cover7.jpeg"
-            alt="Movie poster for the film Batman"
-        /></a>
-        <p>20 EUR</p>
+      <section class="your-cart-backround2 flexconteinercart">
+        <div class="boxbatman flex1">
+          <p>Batman - Unmask the truth (2022)</p>
+          <a href="/products/batman.html"
+            ><img
+              class="batmansmall"
+              src="../images/Square_Eyes_Cover7.jpeg"
+              alt="Movie poster for the film Batman"
+          /></a>
+          <p>QTY</p>
+          <div>
+            <form>
+              <select class="QTYbutton" id="QTY" name="QTY">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </form>
+          </div>
+          <p>20 EUR</p>
+        </div>
+        <div class="boxbatman flex1">
+          <p>Godzilla</p>
+          <img
+            src="../images/Square_Eyes_Cover2.jpeg"
+            alt="Movie poster of the movie Godzilla"
+            class="godzillasmall"
+          />
+          <p>QTY</p>
+          <div>
+            <form>
+              <select class="QTYbutton" id="QTY" name="QTY">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </form>
+          </div>
+          <p>20 EUR</p>
+        </div>
+        <div class="centertext flex2">
+          <p>Product total: 42 EUR</p>
+          <p>Discount: 0 EUR</p>
+          <p class="yellowbackroundcart">Total 40 EUR</p>
+        </div>
+        <div class="box5 centertext flex2">
+          <a class="yellow-cta" href="../Check out/checkout.html">Continue</a>
+        </div>
       </section>
-      <section>
-        <p>Godzilla - King of the monsters</p>
-        <img
-          src="../images/Square_Eyes_Cover2.jpeg"
-          alt="Movie poster of the movie Gozilla"
-          class="fp-movie-collection"
-        />
-        <p>20 EUR</p>
-      </section>
-      <section>
-        <h2 class="your-cart-line">Summary</h2>
-      </section>
-      <section>
-        <p>Batman - Unmask the truth (2022)</p>
-        <a href="/products/batman.html"
-          ><img
-            class="batmansmall"
-            src="../images/Square_Eyes_Cover7.jpeg"
-            alt="Movie poster for the film Batman"
-        /></a>
-        <p>QTY 1</p>
-        <p>20 EUR</p>
-      </section>
-      <section>
-        <p>Godzilla</p>
-        <img
-          src="../images/Square_Eyes_Cover2.jpeg"
-          alt="Movie poster of the movie Godzilla"
-          class="godzillasmall"
-        />
-        <p>QTY 1</p>
-        <p>20 EUR</p>
-      </section>
-      <section>
-        <p>Product total: 42 EUR</p>
-        <p>Discount: 0 EUR</p>
-        <p class="yellowbackround">Total 40 EUR</p>
-      </section>
-      <div>
-        <a class="yellow-cta" href="checkout.html">Continue</a>
-      </div>
     </main>
     <footer>Square Eyes &copy;</footer>
   </body>
