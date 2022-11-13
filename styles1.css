@@ -6,18 +6,35 @@ html {
     box-sizing: inherit;
 }
 
+.navbutton {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 50px
+    }
+
 body {
     font-family: 'Roboto Condensed', sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
 }
 
-
-textarea,input {
+input, textarea, select {
+    margin: 10px 5px 5px 5px;
+    font-weight: 300;
     border-radius: 3px;
-    border: 0px;
-    background-color: #535353;
+    border: #c39900;
     color: white;
+    background-color: #535353;
+    font-size: 15px;
+}
+textarea, select {
+    background-color: #535353;
 }
 
+
+.nomargin {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+}
 
 header, body, footer{
     background-color: #EFEFEF;
@@ -29,7 +46,9 @@ header {
     align-items: center;
     font-size: 20px;
     font-weight: 300;
+    width: 100%;
 }
+
 
 .logo{
     height: 80px;
@@ -55,8 +74,50 @@ footer {
 
 
 
-
 /*HOMEPAGE*/
+
+.centertext {
+    text-align: center;
+}
+
+.navbutton2 {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 0px
+ }
+
+
+ .FP_spooky{
+    position: relative;
+    top: 5px;
+    font-size: 15px;
+}
+
+
+.moviebackround {
+    background-color: #252525;
+}
+
+.Spooky_season {
+    position: relative;
+    top: -10px;
+    font-weight: 300;
+}
+
+.main1 {
+    overflow: hidden;
+    justify-content:center;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    flex: wrap;
+    }
+
+
+    .whitetext {
+        color: white;
+    }
+
 .HP-textmargin-one {
    margin-top: 120px;
 }
@@ -76,6 +137,11 @@ footer {
     padding: 15px 70px;
     border-radius: 5px;
     font-weight: 300;
+}
+
+.moviescontainer {
+    display: flex;
+    position: static;
 }
 
 .flexconteiner {
@@ -145,6 +211,22 @@ font-size: 30px;
     background-color: rgba(0, 0, 0, 0.608);
 }
 
+.gridconteiner {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid
+}
+
+
+
+/*COLLECTION*/
+
+.pulpfictionbig {
+    background-image: url(images/pulpfiction.jpg);
+    min-height: 80vh; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
@@ -153,6 +235,15 @@ font-size: 30px;
 
 
 /*YOUR CART*/
+
+.summarylayout {
+    display: inline-block;
+}
+
+.box6 {
+    margin-right: 80px;
+}
+
 
 .QTYbutton {
     border-radius: 3px;
@@ -190,6 +281,7 @@ font-size: 30px;
     font-weight: 300;
     text-shadow: #1A1919;
 }
+
 
 
 .yellowbackroundcart {
@@ -253,18 +345,78 @@ font-size: 30px;
 
 
 
+
+
+
+
+
+/*ORDER CONFIRMED PAGE*/
+
+.mainrelative {
+    position: relative;
+}
+
+.divabsolute {
+    position: absolute;
+}
+
+.h1-text {
+    text-align: center;
+    background-color: #c39900;
+    color: white;
+    padding: 7px;
+}
+
+.smalltext {
+    font-weight: 300;
+    margin: 30px;
+}
+
+.h2-text {
+    margin: 30px;
+    font-size: 22px;
+}
+
+.order-logo {
+    display: block;
+    height: 6rem;
+    position: absolute;
+    left: 40.3%;
+    top: 55%;
+
+}
+
+.circle {
+    display: block;
+    height: 12rem;
+    width: 12rem;
+    background-color:#c39900;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+
+}
+
+.logocirlceflex {
+    display: flex;
+    overflow: hidden;
+}
+
+.circleflexitem {
+    flex: 1;
+}
+
+
+
+
 /*CHECK OUT PAGE*/
 
 .shippayinfo {
     text-align: center;
     font-weight: 300;
-}
-
-textarea,input {
-    border-radius: 3px;
-    border: 0px;
-    background-color: #535353;
-    color: white;
+    letter-spacing: 4px;
+    margin: 10px;
 }
 
 
@@ -277,23 +429,41 @@ textarea,input {
 }
 
 .Shipping {
-    display: flex;
+    display: inline-grid;
     flex-direction: column;
     justify-content: space-around;
 }
 
 .cta-purchase {
-    margin: 20px;
+    margin: 50px;
 }
 
 
 
-
-
-
-
-
 /* ABOUT US PAGE */
+
+.allatoneplace {
+    position: static;
+    top: 50px;
+    left: -10px;
+}
+
+
+.nomargin {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+}
+
+
+.yellowtext {
+    color:rgb(170, 133, 0)
+}
+
+.about-us-main {
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+}
 
 .about-us-margin-one{
     margin-top: 60px;
@@ -364,6 +534,20 @@ textarea,input {
 
 
 /*CONTACT US PAGE*/
+
+.yellowbackround_contact {
+    background-color: rgb(170, 133, 0);
+    color: white;
+    font-weight: 300;
+    padding: 10px 10px 10px 100px;
+    font-size: 14.5px;
+    letter-spacing: 3px;
+}
+
+.contact {
+    max-width: 800px;
+    margin: auto;
+}
 
 .contact-us-main-height{
     height: 500px;
@@ -543,6 +727,12 @@ textarea,input {
     padding: 0px;
 }
 
+.price2 {
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
 .yellow-cta {
     background-color: #c39900;
     color: white;
@@ -550,6 +740,7 @@ textarea,input {
     border-radius: 5px;
     text-transform:uppercase;
     font-weight: 300;
+    margin: 30px;
 
 }
 
@@ -577,6 +768,11 @@ textarea,input {
 
 
 /*REGISTER PAGE*/
+
+.regform {
+    display: grid;
+}
+
 
 .flexconteiner2 {
     display: flex;
@@ -628,7 +824,6 @@ textarea,input {
     color: #EFEFEF;
     background-color:#8A0404;
     padding: 5px;
-    margin: 0%;
 }
 .registerinfo2 {
     text-transform: uppercase;
@@ -669,6 +864,7 @@ textarea,input {
     color: #8A0404;
     padding: 10px;
     text-align: center;
+    font-weight: bolder;
 }
 
 .textpositioning {
@@ -683,4 +879,217 @@ textarea,input {
     color: white;
     text-transform: uppercase;
     font-weight: 300;
+}
+
+.yellowbackgroundtext {
+    background-color: #c39900;
+    color: white ;
+    font-weight: 300;
+    padding: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 200px) and (max-width: 615px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: 300;
+        width: 100%;
+        text-align: center;
+    }
+
+    ul {
+        padding: 0px;
+    }
+    .navbutton {
+        display: inline-block;
+        padding: 2px;
+        margin-left: 0px
+        }
+
+
+
+/*HOMEPAGE*/
+
+
+
+        .moviescontainer {
+            display: grid;
+            grid-column: 1fr;
+            justify-items: center;
+            justify-content: space-between;
+
+            
+        }
+
+        .gray-cta {
+            background-color: gray;
+            color:white;
+            padding: 10px 10px;
+            border-radius: 5px;
+            font-weight: 300;
+        }
+
+        .cta-gray-FP-maring{
+            padding: 10px;
+        }
+
+
+
+
+    /*CONTACT US*/
+
+
+
+    .flexconteinercontact {
+        display: grid;
+        grid-template-columns: 1fr;
+        overflow: hidden;
+        align-content: center;
+        align-items: inherit;
+    
+    }
+
+    .openinghours {
+        font-size: 18px;
+        font-weight: 300;
+        padding: 10px;
+        margin: 10px;
+        max-height: 150px;
+    
+    }
+
+    /*COLLECTION*/
+
+    .pulpfictionbig {
+        background-image: url(images/pulpfiction.jpg);
+        min-height: 50vh; 
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .collection-backround1 {
+        background-color: rgb(37, 37, 37);
+        color: white;
+        display: grid;
+        grid-column: 1fr;
+        justify-items: center;
+    }
+
+    /*YOUR CART*/
+    .box3 {
+        margin: 5px;
+    }
+
+    /*PAYMENT*/
+
+    .marginmobile {
+       margin-left: 90px;
+       margin-right: 90px;
+    }
+
+    .yellow-cta {
+        background-color: #c39900;
+        color: white;
+        padding: 10px 10px;
+        border-radius: 5px;
+        text-transform:uppercase;
+        font-weight: 300;
+        margin: 30px;
+    
+    }
+
+    }
+
+@media (min-width: 616px) and (max-width: 899px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 300;
+        width: 100%;
+        text-align: center;
+    }
+
+
+ ul {
+    padding: 0px;
+ }
+
+.navbutton {
+    display: inline-block;
+    padding: 2px;
+    margin-left: 0px
+    }
+
+/*HOMEPAGE*/
+    .moviescontainer {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        justify-content: space-between;
+
+    
+    }
+
+    /*CONTACT US*/
+
+    .flexconteinercontact {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        overflow: hidden;
+        align-content: center;
+        align-items: inherit;
+    
+    }
+
+
+    /*COLLECTION*/
+
+    .pulpfictionbig {
+        background-image: url(images/pulpfiction.jpg);
+        min-height: 50vh; 
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .collection-backround1 {
+        background-color: rgb(37, 37, 37);
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+
+    /*PAYMENT*/
+
+    .marginmobile {
+        margin-left: 90px;
+        margin-right: 90px;
+     }
+}
+
+@media (min-width: 900px) and (max-width: 1092px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 300;
+        width: 100%;
+        text-align: center;
+    }
+
 }
